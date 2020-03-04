@@ -1,0 +1,13 @@
+body{
+    background-image: url("pitch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.jumbotron{
+    background-image: url("travel.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
