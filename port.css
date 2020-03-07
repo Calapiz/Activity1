@@ -1,13 +1,13 @@
 body{
-    background-image: url("pitch.jpg");
+    background-image: url("DARK.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-div.jumbotron{
-    background-image: url("travel.jpg");
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
+hr{
+    border: 1px solid white;
+}
+.box{
+    box-model: border-box:
+    border: 3px solid transparent;
+    background-clip: padding-box;
 }

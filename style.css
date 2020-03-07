@@ -1,5 +1,7 @@
+
+
 body{
-    background-image: url("pitch.jpg");
+    background-image: url("DARK.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,4 +11,10 @@ div.jumbotron{
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
+}
+div.carousel{
+    border-image-width:200;
+}
+hr{
+    border: 1px solid white;
 }
