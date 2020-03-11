@@ -18,3 +18,8 @@ div.carousel{
 hr{
     border: 1px solid white;
 }
+div.container{
+    border-image-repeat: space;
+
+
+}

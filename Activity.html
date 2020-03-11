@@ -1,126 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
-<body>
-    <div id="wrapper">
-        <nav class="navbar navbar-dark bg-dark"> 
-            <a class= "navbar-brand mb-0 h1" href="#">
-                <img src="logo.png"  width="95" height="55" class="d-inline-block align-center" alt="Travel Goals" >Travel Goals
-            </a>
-        <ul class="nav">
-                <li class="nav-item"><a class="nav-link  h3 text-white" href="file:///C:/Users/User/Desktop/Activity1/Activity.html#">Home</a></li>
-                <li class="nav-item"><a class="nav-link  h3 text-white" href="file:///C:/Users/User/Desktop/Activity1/portfolio.html#">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link  h3 text-white" href="#">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link  h3 text-white" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link  h3 text-white" href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <!--Header-->
-        <div class="jumbotron">
-            <h1 class="display-4 text-center text-dark">Travel Qoute</h1>
-            <p class="lead text-center text-dark h3"> 
-                “TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS” ~ CHIEF SEATTLE
-        </div>
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#slides" data-slide-to="0" class="active"></li>
-              <li data-target="#slides" data-slide-to="1"></li>
-              <li data-target="#slides" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item activ h3">
-                <img src="paris.jpg"  class="rounded mx-auto d-block " width="2000" height="700" alt="Philippines greatest treasure">
-                <div class="carousel-caption d-none d-md-block h2">
-                    <h5>PARIS</h5>
-                    <p>“Fluctuat nec mergitur”</p>
-                  </div>
-              </div>
-              <div class="carousel-itemh3">
-                <img src="japan.jpg"  class="rounded mx-auto d-block" width="2000" height="700" alt="One of the most beautiful bridge">
-                <div class="carousel-caption d-none d-md-block h2">
-                    <h5>JAPAN</h5>
-                    <p>“Endless Discovery”</p>
-                  </div>
-              </div>
-              <div class="carousel-item h3">
-                <img src="palawan.jpg" class="rounded mx-auto d-block" width="2000" height="700" alt="Where love can be found">
-                <div class="carousel-caption d-none d-md-block h2">
-                    <h5>PALAWAN </h5>
-                    <p>"Every Island an Adventure"</p>
-                  </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+<body data-spy="scroll" data-target="#navbarResponsive">
+  <div id="wrapper">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand mb-0 h1" href="#">
+        <img src="logo.png" width="95" height="55" class="d-inline-block align-center" alt="Travel Goals">Travel Goals
+      </a>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link  h3 text-white"
+            href="file:///C:/Users/User/Desktop/Activity1/Activity.html#">Home</a></li>
+        <li class="nav-item"><a class="nav-link  h3 text-white"
+            href="file:///C:/Users/User/Desktop/Activity1/portfolio.html#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link  h3 text-white" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link  h3 text-white" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link  h3 text-white" href="#">Contact</a></li>
+      </ul>
+    </nav> 
+    <!--Header-->
+    <div class="jumbotron">
+      <h1 class="display-4 text-center text-dark">Travel Qoute</h1>
+      <p class="lead text-center text-dark h3">
+        “TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS” ~ CHIEF SEATTLE
+    </div>
+    <div id="slide" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active h3">
+          <img src="paris.jpg" class="rounded mx-auto d-block " width="2000" height="700"
+            alt="Philippines greatest treasure">
+          <div class="carousel-caption d-none d-md-block h2">
+            <h5>PARIS</h5>
+            <p>“Fluctuat nec mergitur”</p>
           </div>
-        
+        </div>
+        <div class="carousel-item h3">
+          <img src="japan.jpg" class="rounded mx-auto d-block" width="2000" height="700"
+            alt="One of the most beautiful bridge">
+          <div class="carousel-caption d-none d-md-block h2">
+            <h5>JAPAN</h5>
+            <p>“Endless Discovery”</p>
+          </div>
+        </div>
+        <div class="carousel-item h3">
+          <img src="palawan.jpg" class="rounded mx-auto d-block" width="2000" height="700"
+            alt="Where love can be found">
+          <div class="carousel-caption d-none d-md-block h2">
+            <h5>PALAWAN </h5>
+            <p>"Every Island an Adventure"</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
 
-        <div class="container-fluid padding ">
-           <div class="row text-center padding"> 
-                        <div class="col-md-4 text-center "><i class="fas fa-bold"><img src="vector.png" width="300" height="300" ><a class="text-white h6"><br> “THERE IS A PLACE WITHIN US THAT IS COURAGEOUS BEYOND OUR HUMAN UNDERSTANDING; IT YEARNS TO EXPLORE BEYOND THE BOUNDARIES OF OUR DAILY LIFE.”</i></a></div>
+
+    <div class="container-fluid padding ">
+      <div class="row text-center padding">
+        <div class="col-md-4 text-center "><i class="fas fa-bold"><img src="vector.png" width="300" height="300"><a
+              class="text-white h6"><br> “THERE IS A PLACE WITHIN US THAT IS COURAGEOUS BEYOND OUR HUMAN UNDERSTANDING;
+              IT YEARNS TO EXPLORE BEYOND THE BOUNDARIES OF OUR DAILY LIFE.”</i></a></div>
+
+        <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="stories.png" width="300" height="300"><a
+              class="text-white h6"><br>"STORIES THAT YOU WILL ALWAYS REMEMBER AND CHERISH WITH YOUR FAMILY, FRIENDS AND
+              EVEN THE ONE THAT YOU LOVE. MEMORIES THAT WILL CONNECT US ONE."</i></a></div>
+
+        <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="ping.png" width="300" height="300"><a
+              class="text-white h6"><br>"CAPTURE EVERY MOMENT THAT MAKES YOU SMILE AND HAPPY. IT GIVES HAPPINESS AND
+              LOVE THAT WE EMBRACE THROUGH OUT OUR JOURNEY. MAKE IT HAPPENED MY FRIEND"</i></a></div>
+      </div>
+    </div>
+
+    <link rel="stylesheet" href="port.css">
+    </nav>
+    <hr>
+    </hr>
+    <div class="jumbotron-fluid padding">
+      <h1 class="display-4 text-center text-white">I am a Traveler</h1>
+      <p class="lead text-center h3 text-white">
+        “LIFE IS EITHER A DARING ADVENTURE OR NOTHING AT ALL” ~ HELEN KELLER
+        <hr>
+        </hr>
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center"><a href="#" class="text-primary h3">Where I've Been </a><a
+          class="text-white h6"><br>Hi! I was born in Medina, Misamis Oriental. Currently staying here in Cagayan de Oro
+          City at Barangay Camaman-an, Macajalar Street. In staying here in the city is very challenging because you'll
+          encounter different persons with different personalities that you've met everyday, the environment that makes
+          people more productive and the economic status that always been priorities by the government.</a></div>
+      <div class="col-md-4 text-center"><a href="#" class="text-primary h3">What I Wanted To Do</a><a
+          class="text-white h6"><br>Hmm... Thinking of this question "What I Wanted To Do"... I wanted to travel all
+          around the world after many years of working (Hopefully it will be come true hehehe...), with my family and
+          also to my partner because I want to create memories that I will cherish forever.</a></div>
+      <div class="col-md-4 text-center"><a href="#" class="text-primary h3">Travel Bucket List</a><a
+          class="text-white h6"><br>The travel bucket list that I want to go: Walk along the Great Wall of China, Visit
+          the Colosseum, Discover the Taj Mahal, Discover the Amazon Rainforest and River, Drink wine under the Eiffel
+          Tower, Enjoying at Sydney Opera House, Swim in Palawan, Puerto Princesa Subterranean River National Park,
+          Experience Japanese Nightlife, and many more :D!</a></div>
+
+
+    </div>
+  </div>
+  <hr>
+  </hr>
+  <div class="jumbotron-fluid padding">
+    <h1 class="display-4 text-center text-white">Captured Every Moment</h1>
+    <p class="lead text-center h3 text-white">
+      “THE MEMORY OF SCARED MOMENT IS UNFORGETTABLE” ~ LAILAH GIFTY AKITA
+      <hr>
+      </hr>
+    </p>
+  </div>
+  </div>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-4 col-sm-4 text-center"><img src="japan.jpg" class="img-fluid img-thumbnail"></div>
+      <div class="col-xs-4 col-sm-4 text-center"><img src="majal.jpg" class="img-fluid img-thumbnail"  ></div>
+      <div class="col-xs-4 col-sm-4 text-center"><img src="London-England.jpg" class="img-fluid img-thumbnail"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-4 text-center"><img src="palawan.jpg" class="img-fluid img-thumbnail" ></div>
+      <div class="col-md-4 col-md-4 text-center"><img src="sing.jpg"   class="img-fluid img-thumbnail" ></div>
+      <div class="col-md-4 col-md-4 text-center"><img src="lastt.jpg" class="img-fluid img-thumbnail"></div>
+    </div>
+  
+    <hr>
+    </hr>
+    <div class="jumbotron-fluid padding">
+      <h1 class="display-4 text-center text-white">ABOUT</h1>
+      <p class="lead text-center h3 text-white">
+        “ABOUT WHAT IS MEANT TO BE” ~ anonymous
+        <hr>
+        </hr>
+      </p>
+    </div>
+
+    
+    
+    
  
-                        <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="stories.png" width="300" height="300"><a class="text-white h6"><br>"STORIES THAT YOU WILL ALWAYS REMEMBER AND CHERISH WITH YOUR FAMILY, FRIENDS AND EVEN THE ONE THAT YOU LOVE. MEMORIES THAT WILL CONNECT US ONE."</i></a></div>
-   
-                        <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="ping.png" width="300" height="300"><a class="text-white h6"><br>"CAPTURE EVERY MOMENT THAT MAKES YOU SMILE AND HAPPY. IT GIVES HAPPINESS AND LOVE THAT WE EMBRACE THROUGH OUT OUR JOURNEY. MAKE IT HAPPENED MY FRIEND"</i></a></div> 
-           </div>
-     <link rel="stylesheet" href="port.css">
-        </nav>
-       <hr></hr>
-        <div class="jumbotron-fluid padding">
-            <h1 class="display-4 text-center text-white">I am a Traveler</h1>
-            <p class="lead text-center h3 text-white">
-                “LIFE IS EITHER A DARING ADVENTURE OR NOTHING AT ALL” ~ HELEN KELLER<hr></hr>
-            </p>
-        </div>
-        </div>
-    <div class="container">
-        <div class="row"> 
-                     <div class="col-md-4 text-center"><a href="#" class="text-primary h3" >Where I've Been </a><a class="text-white h6"><br>Hi! I was born in Medina, Misamis Oriental. Currently staying here in Cagayan de Oro City at Barangay Camaman-an, Macajalar Street. In staying here in the city is very challenging because you'll encounter different persons with different personalities that you've met everyday, the environment that makes people more productive and the economic status that always been priorities by the government.</a></div>
-                     <div class="col-md-4 text-center"><a href="#" class="text-primary h3">What I Wanted To Do</a><a class="text-white h6"><br>Hmm... Thinking of this question "What I Wanted To Do"... I wanted to travel all around the world after many years of working (Hopefully it will be come true hehehe...), with my family and also to my partner because I want to create memories that I will cherish forever.</a></div>
-                     <div class="col-md-4 text-center"><a href="#" class="text-primary h3">Travel Bucket List</a><a class="text-white h6"><br>The travel bucket list that I want to go: Walk along the Great Wall of China, Visit the Colosseum, Discover the Taj Mahal, Discover the Amazon Rainforest and River, Drink wine under the Eiffel Tower, Enjoying at Sydney Opera House, Swim in Palawan, Puerto Princesa Subterranean River National Park, Experience Japanese Nightlife, and many more :D!</a></div>
     
     
-            </div>
-            </div>
-        <hr></hr>
-        <div class="jumbotron-fluid padding">
-            <h1 class="display-4 text-center text-white">Captured Every Moment</h1>
-            <p class="lead text-center h3 text-white">
-                    “THE MEMORY OF SCARED MOMENT IS UNFORGETTABLE” ~ LAILAH GIFTY AKITA<hr></hr>
-            </p>
-        </div>
-        </div>
-        <div class="container-fluid padding">
-            <div class="row"> 
-                         <div class="col-xs-4 col-sm-4 text-center"><img src="japan.jpg" width="400" height="250"></div>
-                         <div class="col-xs-4 col-sm-4 text-center"><img src="paris.jpg" width="400" height="250"></div>
-                         <div class="col-xs-4 col-sm-4 text-center"><img src="London-England.jpg" width="400" height="250"></div>
-            </div>
-       
-            <div class="row"> 
-                         <div class="col-md-5 col-lg-4"> <img src="palawan.jpg" width="400" height="250"></div>
-                       
-            </div>           
-        </div>
-                       
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
