@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <title>TravelGoals</title>
 </head>
 
 <body>
@@ -19,55 +19,66 @@
             </a>
             <ul class="nav">
                 <li class="nav-item"><a class="nav-link  h3 text-white"
-                        href="file:///C:/Users/User/Desktop/Activity1/Activity.html#">Home</a></li>
+                        href="file:///E:/janex/Project-Bootstrap-css/Activity.html#">Home</a></li>
                 <li class="nav-item"><a class="nav-link  h3 text-white"
                         href="file:///C:/Users/User/Desktop/Activity1/portfolio.html#">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link  h3 text-white" href="#">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link  h3 text-white" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link  h3 text-white" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link  h3 text-white" href="file:///E:/janex/Project-Bootstrap-css/contact.html#">Contact</a></li>
             </ul>
         </nav>
         <div class="jumbotron">
-            <h1 class="display-4 text-center">Contact Us</h1>
+            <h1 class="display-4 text-center text-black font-weight-bolder">Contact Us</h1>
             <hr>
             </hr>
         </div>
 
         <div class="container">
-            <div class="row">
-                <div class="card" style="width: 30rem;">
-                    <div class="card-body col-md-12">
-                        <h5 class="card-title text-center">Call me!</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+            <div class="row padding">
+                <div class="input-group input-group-default mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">NAME</span>
                     </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
                 </div>
-                <div class="card" style="width: 30rem;">
-                    <div class="card-body col-md-12">
-                        <h5 class="card-title text-center">Call me!</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">EMAIL</span>
                     </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
                 </div>
-              </div>
-            
+            </div>
+            <div class="form-group text-white">
+                <label for="comment ">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="button" class="btn btn-light btn-outline-dark float-right">Send</button>
+
         </div>
 
+        <style>
+            .footer {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: #212529;
+              color: white;
+              text-align: center;
+            }
+            </style>
+            
 
+            <div class="footer">
+                <button type="button" class="btn btn-light btn-fb"><i class="fab fa-facebook-f pr-2 "></i> Facebook</button>
+                <button type="button" class="btn btn-light  btn-ins"><i class="fab fa-instagram-f pr-2"></i>Instagram</button>
+                
+              <p>©TravelGoals, All rights reserved 2020</p>
+            </div>
+
+            
 </body>
-
-
-
-
-
-
-
-</body>
-
 </html>
