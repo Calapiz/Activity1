@@ -1,5 +1,4 @@
 
-
 body{
     background-image: url("DARK.jpg");
     background-repeat: no-repeat;
@@ -13,13 +12,21 @@ div.jumbotron{
     background-position: center;
 }
 div.carousel{
-    border-image-width:200;
+    border-image-width:100%;
 }
 hr{
     border: 1px solid white;
 }
 div.container{
     border-image-repeat: space;
-
-
 }
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+

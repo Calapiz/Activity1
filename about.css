@@ -3,10 +3,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-hr{
-    border: 1px solid white;
-}   
-div.footer{
+div.jumbotron{
+    background-image: url("island.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -15,11 +18,3 @@ div.footer{
     color: white;
     text-align: center;
   }
-  
-div.jumbotron{
-    background-image: url("travel.jpg");
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
