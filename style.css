@@ -3,6 +3,7 @@ body{
     background-image: url("DARK.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 div.jumbotron{
@@ -19,6 +20,7 @@ hr{
 }
 div.container{
     border-image-repeat: space;
+    background-color: black;
 }
 .footer {
   position: static;
