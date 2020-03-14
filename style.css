@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
 
+}
+.wrapper{
+    width: 100%;
+}
 body{
     background-image: url("DARK.jpg");
     background-repeat: no-repeat;
@@ -15,9 +22,7 @@ div.jumbotron{
 div.carousel{
     border-image-width:100%;
 }
-hr{
-    border: 1px solid white;
-}
+
 div.container{
     border-image-repeat: space;
     background-color: black;
@@ -27,7 +32,6 @@ div.container{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #212529;
   color: white;
   text-align: center;
 }

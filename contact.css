@@ -10,11 +10,10 @@ div.jumbotron{
     background-position: center;
 }
 div.footer {
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #212529;
     color: white;
     text-align: center;
   }
