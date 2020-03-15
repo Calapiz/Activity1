@@ -3,12 +3,9 @@
     padding: 0;
 
 }
-.wrapper{
-    width: 100%;
-}
 body{
     background-image: url("DARK.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-color: black;
 }

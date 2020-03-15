@@ -3,6 +3,7 @@ body{
     background-repeat: repeat;
     background-size: cover;
 }
+
 div.jumbotron{
     background-image: url("island.jpg");
     background-repeat:  no-repeat;
@@ -10,7 +11,7 @@ div.jumbotron{
     background-position: center;
 }
 .footer {
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
