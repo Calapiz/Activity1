@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TravelGoals</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -9,93 +12,97 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
-  <div id="wrapper">
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand mb-0 h1" href="#">
-        <img src="logo.png" width="95" height="55" class="d-inline-block align-center" alt="Travel Goals">Travel Goals
-      </a>
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link  h3 text-white" href="Activity.html#">Home</a></li>
-        <li class="nav-item"><a class="nav-link  h3 text-white" href="portfolio.html#">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link  h3 text-white" href="gallery.html#">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link  h3 text-white" href="bout.html#">About</a></li>
-        <li class="nav-item"><a class="nav-link  h3 text-white" href="contact.html#">Contact</a></li>
-      </ul>
+  <div id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="Activity.html#"><img src="logo.png" alt="mylogo" width="95" height="55"
+          class="d-inline-block align-center" alt="logo">Travel Goals</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item"><a class="nav-link  h3 text-white" href="Activity.html#">Home</a></li>
+          <li class="nav-item"><a class="nav-link  h3 text-white" href="portfolio.html#">About</a></li>
+          <li class="nav-item"><a class="nav-link  h3 text-white" href="gallery.html#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link  h3 text-white" href="bout.html#">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link  h3 text-white" href="contact.html#">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <!--Header-->
-    <div class="jumbotron">
-      <h1 class="display-4 text-center text-dark font-weight-bolder">Travel Qoute</h1>
-      <p class="lead text-center text-dark h3">
-        “TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS” ~ CHIEF SEATTLE
-    </div>
-    <div id="slide" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active h3">
-          <img src="paris.jpg" class="rounded mx-auto d-block " width="1500" height="700"
-            alt="Philippines greatest treasure">
-          <div class="carousel-caption d-none d-md-block h2">
-            <h5>PARIS</h5>
-            <p>“Fluctuat nec mergitur”</p>
-          </div>
-        </div>
-        <div class="carousel-item h3">
-          <img src="japan.jpg" class="rounded mx-auto d-block" width="1500" height="700"
-            alt="One of the most beautiful bridge">
-          <div class="carousel-caption d-none d-md-block h2">
-            <h5>JAPAN</h5>
-            <p>“Endless Discovery”</p>
-          </div>
-        </div>
-        <div class="carousel-item h3">
-          <img src="palawan.jpg" class="rounded mx-auto d-block" width="1500" height="700"
-            alt="Where love can be found">
-          <div class="carousel-caption d-none d-md-block h2">
-            <h5>PALAWAN </h5>
-            <p>"Every Island an Adventure"</p>
-          </div>
+  </div>
+  <!--Header-->
+  <div class="jumbotron">
+    <h1 class="display-4 text-center text-dark font-weight-bolder">Travel Qoute</h1>
+    <p class="lead text-center text-dark h3">
+      “TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS” ~ CHIEF SEATTLE
+  </div>
+  <div id="slide" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active h3">
+        <img src="paris.jpg" class="rounded mx-auto d-block " width="1500" height="700"
+          alt="Philippines greatest treasure">
+        <div class="carousel-caption d-none d-md-block h2">
+          <h5>PARIS</h5>
+          <p>“Fluctuat nec mergitur”</p>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="container-fluid padding ">
-      <div class="row text-center padding">
-        <div class="col-md-4 text-center "><i class="fas fa-bold"><img src="vector.png" width="300" height="300"><a
-              class="text-white h6"><br> “THERE IS A PLACE WITHIN US THAT IS COURAGEOUS BEYOND OUR HUMAN UNDERSTANDING;
-              IT YEARNS TO EXPLORE BEYOND THE BOUNDARIES OF OUR DAILY LIFE.”</i></a></div>
-
-        <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="stories.png" width="300" height="300"><a
-              class="text-white h6"><br>"STORIES THAT YOU WILL ALWAYS REMEMBER AND CHERISH WITH YOUR FAMILY, FRIENDS AND
-              EVEN THE ONE THAT YOU LOVE. MEMORIES THAT WILL CONNECT US ONE."</i></a></div>
-
-        <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="ping.png" width="300" height="300"><a
-              class="text-white h6"><br>"CAPTURE EVERY MOMENT THAT MAKES YOU SMILE AND HAPPY. IT GIVES HAPPINESS AND
-              LOVE THAT WE EMBRACE THROUGH OUT OUR JOURNEY. MAKE IT HAPPENED MY FRIEND"</i></a></div>
+      <div class="carousel-item h3">
+        <img src="japan.jpg" class="rounded mx-auto d-block" width="1500" height="700"
+          alt="One of the most beautiful bridge">
+        <div class="carousel-caption d-none d-md-block h2">
+          <h5>JAPAN</h5>
+          <p>“Endless Discovery”</p>
+        </div>
+      </div>
+      <div class="carousel-item h3">
+        <img src="palawan.jpg" class="rounded mx-auto d-block" width="1500" height="700" alt="Where love can be found">
+        <div class="carousel-caption d-none d-md-block h2">
+          <h5>PALAWAN </h5>
+          <p>"Every Island an Adventure"</p>
+        </div>
       </div>
     </div>
-    <div class="footer">
-      <p>©TravelGoals, All rights reserved 2020</p>
+    <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container-fluid padding ">
+    <div class="row text-center padding">
+      <div class="col-md-4 text-center "><i class="fas fa-bold"><img src="vector.png" width="300" height="300"><a
+            class="text-white h6"><br> “THERE IS A PLACE WITHIN US THAT IS COURAGEOUS BEYOND OUR HUMAN UNDERSTANDING;
+            IT YEARNS TO EXPLORE BEYOND THE BOUNDARIES OF OUR DAILY LIFE.”</i></a></div>
+
+      <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="stories.png" width="300" height="300"><a
+            class="text-white h6"><br>"STORIES THAT YOU WILL ALWAYS REMEMBER AND CHERISH WITH YOUR FAMILY, FRIENDS AND
+            EVEN THE ONE THAT YOU LOVE. MEMORIES THAT WILL CONNECT US ONE."</i></a></div>
+
+      <div class="col-md-4 text-center h5"><i class="fas fa-bold"><img src="ping.png" width="300" height="300"><a
+            class="text-white h6"><br>"CAPTURE EVERY MOMENT THAT MAKES YOU SMILE AND HAPPY. IT GIVES HAPPINESS AND
+            LOVE THAT WE EMBRACE THROUGH OUT OUR JOURNEY. MAKE IT HAPPENED MY FRIEND"</i></a></div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
+  </div>
+  <div class="footer">
+    <p>©TravelGoals, All rights reserved 2020</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
